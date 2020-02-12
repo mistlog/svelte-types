@@ -1,0 +1,29 @@
+{
+  "name": "svelte-types",
+  "version": "0.0.2",
+  "description": "This package contains type definitions for svelte-draft",
+  "main": "index.js",
+  "types": "./type/index.d.ts",
+  "files": [
+    "type"
+  ],
+  "keywords": [
+    "svelte",
+    "typescript"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistlog/svelte-types.git"
+  },
+  "author": "mistlog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mistlog/svelte-types/issues"
+  },
+  "homepage": "https://github.com/mistlog/svelte-types#readme",
+  "dependencies": {
+    "csstype": "^2.6.8",
+    "svelte": "^3.18.2"
+  }
+}
