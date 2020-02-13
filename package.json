@@ -1,6 +1,6 @@
 {
   "name": "svelte-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This package contains type definitions for svelte-draft",
   "main": "index.js",
   "types": "./type/index.d.ts",

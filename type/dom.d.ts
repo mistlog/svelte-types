@@ -2070,6 +2070,7 @@ declare namespace Svelte
     {
         form?: string;
         htmlFor?: string;
+        for?: string;  // Svelte
     }
 
     interface LiHTMLAttributes<T> extends HTMLAttributes<T>
@@ -2953,8 +2954,8 @@ declare global
         interface IntrinsicElements
         {
             // Svelte
-            if: { condition: boolean, children: any };
-            else: { condition?: boolean, children: any };
+            if: { condition: boolean | number, children: any };
+            else: { condition?: boolean | number, children: any };
             await: { children: { loading?: any, promise: any } };
             each: { from: any, children: any };
             slot: { children?: any, name?: string, props?: "ConfigProps" };
