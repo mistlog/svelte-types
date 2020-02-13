@@ -2944,7 +2944,7 @@ declare global
         // tslint:disable-next-line:no-empty-interface
         interface IntrinsicAttributes extends Svelte.Attributes
         {
-            children?: any[]
+            children?: any[] | any
         }
 
         // tslint:disable-next-line:no-empty-interface
