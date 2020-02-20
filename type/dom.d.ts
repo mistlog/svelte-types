@@ -2103,6 +2103,10 @@ declare namespace Svelte
 
     interface MediaHTMLAttributes<T> extends HTMLAttributes<T>
     {
+        // Svelte
+        bindPaused?: boolean | number;
+
+        //
         autoPlay?: boolean;
         controls?: boolean;
         controlsList?: string;

@@ -12,9 +12,14 @@ const tag = <div></div>;
         <if condition={true}>
         </if>
     );
-    
+
     const tag_number = (
         <if condition={1}>
         </if>
     );
+}
+
+//
+{
+    const tag = <audio bindPaused={true}></audio>
 }
