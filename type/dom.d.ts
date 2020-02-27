@@ -2964,6 +2964,12 @@ declare global
             each: { from: any, children: any };
             slot: { children?: any, name?: string, props?: "ConfigProps" };
             debug: { children?: Array<any> };
+            "svelte-self": { chidren?: any, [key: string]: any };
+            "svelte-component": { chidren?: any, [key: string]: any };
+            "svelte-window": { chidren?: any, [key: string]: any };
+            "svelte-body": { chidren?: any, [key: string]: any };
+            "svelte-head": { chidren?: any, [key: string]: any };
+            "svelte-options": { chidren?: any, [key: string]: any };
 
             // HTML
             a: Svelte.DetailedHTMLProps<Svelte.AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>;
