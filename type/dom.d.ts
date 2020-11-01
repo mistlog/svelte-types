@@ -1306,7 +1306,7 @@ declare namespace Svelte
         onBlurCapture?: FocusEventHandler<T>;
 
         // Form Events
-        onChange?: FormEventHandler<T>;
+        onChange?: FormEventHandler<T> | boolean;
         onChangeCapture?: FormEventHandler<T>;
         onBeforeInput?: FormEventHandler<T>;
         onBeforeInputCapture?: FormEventHandler<T>;
@@ -2052,7 +2052,7 @@ declare namespace Svelte
         bindGroup?: string | string[] | number;
         width?: number | string;
 
-        onChange?: ChangeEventHandler<T>;
+        onChange?: ChangeEventHandler<T> | boolean;
     }
 
     interface KeygenHTMLAttributes<T> extends HTMLAttributes<T>
