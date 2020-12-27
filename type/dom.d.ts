@@ -1272,6 +1272,7 @@ declare namespace Svelte
 
     interface DOMAttributes<T>
     {
+        class?: string;
         children?: SvelteNode;
         dangerouslySetInnerHTML?: {
             __html: string;
@@ -1690,6 +1691,7 @@ declare namespace Svelte
         animate?: AnimationConfig;
         use?: ActionConfig;
         on?: "ConfigEvent";
+        spellcheck?: boolean;
 
         // Svelte-specific Attributes
         defaultChecked?: boolean;
@@ -2970,6 +2972,7 @@ declare global
             "svelte-body": { chidren?: any, [key: string]: any };
             "svelte-head": { chidren?: any, [key: string]: any };
             "svelte-options": { chidren?: any, [key: string]: any };
+            "raw-html":  Svelte.DetailedHTMLProps<Svelte.HTMLAttributes<HTMLElement>, HTMLElement>;
 
             // HTML
             a: Svelte.DetailedHTMLProps<Svelte.AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>;
