@@ -24,6 +24,6 @@
   "homepage": "https://github.com/mistlog/svelte-types#readme",
   "dependencies": {
     "csstype": "^2.6.8",
-    "svelte": "^3.18.2"
+    "svelte": "^4.2.19"
   }
 }
